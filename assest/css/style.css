@@ -12,6 +12,23 @@ html {
 .text-white {
   color: white !important;
 }
+.btn {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 11px 16px;
+  display: inline-block;
+  margin-top: 15px;
+  border: none;
+}
+.btn:hover {
+  color: #000;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.pull-right {
+  float: right !important;
+}
 .mt-8 {
   margin-top: 8px !important;
 }
@@ -51,8 +68,7 @@ html {
 */
 
 /* Main CSS */
-#main {
-}
+
 
 .clear {
   clear: both;
@@ -161,12 +177,10 @@ html {
   margin-top: 25px;
 }
 
-#content {
-}
 
 #content .content-section {
   width: 800px;
-  padding: 64px 0px;
+  padding: 64px 0px 112px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -244,7 +258,6 @@ html {
 }
 .places-list {
   margin-top: 32px;
-  padding-bottom: 48px;
 }
 .place-img {
   width: 100%;
